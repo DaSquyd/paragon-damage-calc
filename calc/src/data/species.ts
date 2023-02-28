@@ -3102,7 +3102,7 @@ const DPP_PATCH: {[name: string]: DeepPartial<SpeciesData>} = {
   },
   Empoleon: {
     types: ['Water', 'Steel'],
-    bs: {hp: 84, at: 86, df: 88, sa: 111, sd: 101, sp: 60},
+    bs: {hp: 21, at: 25, df: 25, sa: 28, sd: 24, sp: 17},
     weightkg: 84.5,
     abilities: {0: 'Torrent'},
   },
@@ -3246,7 +3246,7 @@ const DPP_PATCH: {[name: string]: DeepPartial<SpeciesData>} = {
   },
   Infernape: {
     types: ['Fire', 'Fighting'],
-    bs: {hp: 76, at: 104, df: 71, sa: 104, sd: 71, sp: 108},
+    bs: {hp: 19, at: 28, df: 20, sa: 22, sd: 20, sp: 27},
     weightkg: 55,
     abilities: {0: 'Blaze'},
   },
@@ -3711,7 +3711,7 @@ const DPP_PATCH: {[name: string]: DeepPartial<SpeciesData>} = {
   },
   Torterra: {
     types: ['Grass', 'Ground'],
-    bs: {hp: 95, at: 109, df: 105, sa: 75, sd: 85, sp: 56},
+    bs: {hp: 27, at: 23, df: 27, sa: 23, sd: 27, sp: 13},
     weightkg: 310,
     abilities: {0: 'Overgrow'},
   },
