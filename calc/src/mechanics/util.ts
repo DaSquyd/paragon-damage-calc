@@ -375,8 +375,8 @@ export function getBaseDamage(level: number, basePower: number, attack: number, 
   return Math.floor(
     OF32(
       Math.floor(
-        OF32(OF32(Math.floor((2 * level) / 5 + 2) * basePower) * attack) / defense
-      ) / 50 + 2
+        OF32(basePower * attack) / defense
+      )
     )
   );
 }
